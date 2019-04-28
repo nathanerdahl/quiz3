@@ -1,0 +1,47 @@
+/* This is a comment */
+/* Author - Nathan Erdahl
+    Version - 1.0 
+*/
+/* Style rule - selector, decloration */
+/* selector{ property name: value; } */
+
+/* selectors - element, id, class, multiple */
+:root{
+    --main-color: red;
+    --bg-color: lightblue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body{
+    background-color: var(--bg-color)
+}
+p{
+    color: green;
+    font-family: 'nunito' sans-serif !important;
+    font-size: 18px; /* em, rem, px, % */
+    /* font-weight: bold; */
+
+}
+h1{
+    background-color: lightblue;
+}
+a{
+    color: red;
+    text-decoration: underline;
+    background-color: var(--main-color)
+}
+footer i{
+    font-style: italic;
+}
+#name{
+    color: orange;
+}
+.class{
+    color: pink;
+}
+p,h1,h2,.class{
+
+}
+h3{
+    color: black !important;
+}
